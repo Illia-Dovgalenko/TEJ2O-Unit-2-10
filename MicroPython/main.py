@@ -7,6 +7,7 @@ This module is a Micro:bit MicroPython program
 from microbit import *
 import neopixel
 
+#  variables
 lightlevel = 0
 np = neopixel.NeoPixel(pin16, 4)
 
